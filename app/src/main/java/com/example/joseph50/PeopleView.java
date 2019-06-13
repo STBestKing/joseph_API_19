@@ -58,6 +58,7 @@ public class PeopleView extends View {
     protected void setPaintinit() {
         bitmap = BitmapFactory.decodeResource(getResources(),init);
         speed = 0;
+        degree = 0;
     }
 
     protected void setPaintshow() {
